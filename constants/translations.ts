@@ -1,0 +1,46 @@
+import type { TranslationContent } from '../types';
+
+export const translations: { [key: string]: TranslationContent } = {
+  es: {
+    headerTitle: "",
+    headerLogoAlt: "Logo de Vital Leafs",
+    productTitle: "VitalPower Fusion Potencia para la Salud a través de la Fusión de Ingredientes",
+    productDescription: "VitalPower Fusion combina energía celular y apoyo cardiovascular en una fórmula sinérgica que combate el envejecimiento, impulsa la longevidad y potencia cuerpo y mente. 100% vegano, sin OGM y con máxima biodisponibilidad científica.",
+    videoTitle: "Nuestro Producto en Acción",
+    galleryTitle: "Galería del Producto",
+    ingredientsTitle: "21 Ingredientes Poderosos",
+    feedbackTitle: "Comentarios Positivos de los Consumidores",
+    feedbackChartTitle: "Comentarios Positivos por Categoría (Número de Menciones)",
+    chartLabels: {
+      satisfaction: "Nivel de Energía y Resistencia",
+      energy: "Calidad y Formulación",
+      mentalClarity: "Frescura y Claridad Mental",
+      cardioHealth: "Facilidad de Uso y Conveniencia",
+      value: "Relación Calidad-Precio",
+    },
+    closeButton: "Cerrar",
+    ingredientBenefitsTitle: "Beneficios Clave",
+    improvedAreasTitle: "Áreas de Mejora",
+  },
+  en: {
+    headerTitle: "",
+    headerLogoAlt: "Vital Leafs Logo",
+    productTitle: "VitalPower Fusion Power for Health Through the Fusion of Ingredients",
+    productDescription: "VitalPower Fusion blends cellular energy and cardiovascular support in a synergistic formula that fights aging, promotes longevity, and boosts body and mind. 100% vegan, non-GMO, and scientifically designed for maximum bioavailability.",
+    videoTitle: "Our Product in Action",
+    galleryTitle: "Product Gallery",
+    ingredientsTitle: "21 Powerful Ingredients",
+    feedbackTitle: "Positive Consumer Feedback",
+    feedbackChartTitle: "Positive Feedback by Category (Number of Mentions)",
+    chartLabels: {
+      satisfaction: "Energy Level & Stamina",
+      energy: "Quality & Formulation",
+      mentalClarity: "Freshness & Mental Clarity",
+      cardioHealth: "Ease of Use & Convenience",
+      value: "Value for Money",
+    },
+    closeButton: "Close",
+    ingredientBenefitsTitle: "Key Benefits",
+    improvedAreasTitle: "Areas of Improvement",
+  },
+};
